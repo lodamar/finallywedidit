@@ -7281,6 +7281,10 @@ button.bg-dark:focus {
   height: 50% !important;
 }
 
+.h-65 {
+  height: 65% !important;
+}
+
 .h-75 {
   height: 75% !important;
 }
@@ -7334,6 +7338,7 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+  color: #0F3B41;
 }
 
 .ml-0,
@@ -7358,6 +7363,7 @@ button.bg-dark:focus {
 .mb-1,
 .my-1 {
   margin-bottom: 0.25rem !important;
+  color: #0F3B41;
 }
 
 .ml-1,
