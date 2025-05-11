@@ -39,13 +39,13 @@
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav ml-auto py-0">
             <a href="#location" class="nav-item nav-link">Location</a>
-            <a href="#programma" class="nav-item nav-link">Programma</a>
+            <a href="#rsvp" class="nav-item nav-link">RSVP</a>
         </div>
         <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
             <h1 class="font-secondary text-white mb-n2">Daniele <span class="text-primary">&</span> Martina</h1>
         </a>
         <div class="navbar-nav mr-auto py-0">
-            <a href="#rsvp" class="nav-item nav-link">RSVP</a>
+            <a href="#programma" class="nav-item nav-link">Programma</a>
             <a href="#honeymoon" class="nav-item nav-link">Viaggio di nozze</a>
         </div>
     </div>
@@ -84,7 +84,7 @@
         </div>
         <img src="img/location.png" alt="Location" class="img-fluid mb-4">
         <p class="mb-0">Il matrimonio si terrà presso <b>Hotel Bewaller</b>, immerso nella natura delle Dolomiti.
-        Un luogo magico per celebrare il nostro giorno speciale.</p>
+            Un luogo magico per celebrare il nostro giorno speciale.</p>
         <br/>
         <p class="mb-0"><i class="fas fa-calendar-alt text-primary"></i> 27-28 Settembre 2025</p>
         <p class="mb-0"><i class="fas fa-map-marker-alt text-primary"></i> Hennewinkl, 9, 39050 Ega BZ</p>
@@ -98,8 +98,38 @@
 </div>
 <!-- Location End -->
 
+<!-- RSVP Start -->
+<div class="container-fluid py-1" id="rsvp">
+    <div class="container py-5">
+        <div class="section-title position-relative text-center">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
+            <h1 class="font-secondary display-4">Festeggia con noi!</h1>
+            <i class="far fa-heart text-dark"></i>
+        </div>
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+                <div class="text-center">
+                    <p class="mb-1">Vi chiediamo gentilmente di confermare la vostra presenza il prima possibile,
+                        entro e
+                        non oltre il 30 Giugno 2025.</p>
+                    <br/>
+                    <form>
+                        <div>
+                            <a style="border-radius: 5px;" href="https://forms.gle/wHbRGMy8r7H2za2c6"
+                               target="_blank"
+                               class="btn btn-primary font-weight-bold py-3 px-5">Conferma la presenza</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- RSVP End -->
+
 <!-- Programma Start -->
-<div id="programma">
+<div class="container-fluid py-5" id="programma">
     <div class="position-relative text-center">
         <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Programma del Matrimonio</h6>
     </div>
@@ -217,131 +247,104 @@
     </div>
     <!-- Programma End -->
 
-    <!-- RSVP Start -->
-    <div class="container-fluid py-1" id="rsvp">
+    <!-- Honeymoon Contribution Start -->
+    <div class="container-fluid py-5" id="honeymoon" style="padding-right: 0; padding-left: 0;">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
-                <h1 class="font-secondary display-4">Festeggia con noi!</h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Vuoi farci un
+                    regalo?</h6>
+                <h1 class="font-secondary display-4">Contribuisci al nostro viaggio di nozze</h1>
                 <i class="far fa-heart text-dark"></i>
             </div>
             <div class="row justify-content-center">
-
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <p class="mb-1">Vi chiediamo gentilmente di confermare la vostra presenza il prima possibile,
-                            entro e
-                            non oltre il 30 Giugno 2025.</p>
+                        <p class="mb-1">Se desideri contribuire al nostro viaggio di nozze e renderlo il viaggio
+                            più incredibile che abbiamo mai fatto, sotto trovi tutti i riferimenti. </p>
                         <br/>
-                        <form>
-                            <div>
-                                <a style="border-radius: 5px;" href="https://forms.gle/wHbRGMy8r7H2za2c6"
-                                   target="_blank"
-                                   class="btn btn-primary font-weight-bold py-3 px-5">Conferma la presenza</a>
-                            </div>
-                        </form>
+                        <p class="mb-1"><b>IBAN:</b></p>
+                        <p class="mb-1">IT84W 03069 32550 1000 0000 9841
+
+                        </p>
+                        <p class="mb-1">Intestato a <i>Martina Todesco</i> e <i>Daniele Bonelli</i>, presso
+                            Intesa San Paolo.</p>
+                        <button class="btn btn-sm btn-primary ml-2" style="border-radius: 5px;"
+                                onclick="copyToClipboard(this)">Copia IBAN
+                        </button>
+                        <br/>
+                        <br/>
+                        <p class="mb-1"><b>Grazie di cuore!</b></p>
+                        <img src="img/honeymoon.jpg" alt="Honeymoon" class="img-fluid my-4">
                     </div>
                 </div>
             </div>
-            <!-- RSVP End -->
+        </div>
+    </div>
+    <!-- Honeymoon Contribution End -->
 
-            <!-- Honeymoon Contribution Start -->
-            <div class="container-fluid py-5" id="honeymoon" style="padding-right: 0; padding-left: 0;">
-                <div class="container py-5">
-                    <div class="section-title position-relative text-center">
-                        <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Vuoi farci un
-                            regalo?</h6>
-                        <h1 class="font-secondary display-4">Contribuisci al nostro viaggio di nozze</h1>
-                        <i class="far fa-heart text-dark"></i>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="text-center">
-                                <p class="mb-1">Se desideri contribuire al nostro viaggio di nozze e renderlo il viaggio
-                                    più incredibile che abbiamo mai fatto, sotto trovi tutti i riferimenti. </p>
-                                <br/>
-                                <p class="mb-1"><b>IBAN:</b></p>
-                                <p class="mb-1">IT84W 03069 32550 1000 0000 9841
-
-                                </p>
-                                <p class="mb-1">Intestato a <i>Martina Todesco</i> e <i>Daniele Bonelli</i>, presso
-                                    Intesa San Paolo.</p>
-                                <button class="btn btn-sm btn-primary ml-2" style="border-radius: 5px;"
-                                        onclick="copyToClipboard(this)">Copia IBAN
-                                </button>
-                                <br/>
-                                <br/>
-                                <p class="mb-1"><b>Grazie di cuore!</b></p>
-                                <img src="img/honeymoon.jpg" alt="Honeymoon" class="img-fluid my-4">
-                            </div>
-                        </div>
-                    </div>
+    <!-- Countdown Start -->
+    <div class="container-fluid py-0 bg-secondary text-center text-white" id="countdown">
+        <div class="container py-0">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Countdown</h6>
+                <h1 class="font-secondary display-4 text-white">Countdown</h1>
+                <i class="far fa-heart text-white"></i>
+            </div>
+            <div class="mx-3">
+                <h2 id="days" class="font-secondary display-4 text-white">00</h2>
+                <p class="text-uppercase">Days</p>
+            </div>
+            <div id="countdown-timer" class="d-flex justify-content-center">
+                <div class="mx-3">
+                    <h2 id="hours" class="font-secondary display-4 text-white">00</h2>
+                    <p class="text-uppercase">Hours</p>
+                </div>
+                <div class="mx-3">
+                    <h2 id="minutes" class="font-secondary display-4 text-white">00</h2>
+                    <p class="text-uppercase">Minutes</p>
+                </div>
+                <div class="mx-3">
+                    <h2 id="seconds" class="font-secondary display-4 text-white">00</h2>
+                    <p class="text-uppercase">Seconds</p>
                 </div>
             </div>
-            <!-- Honeymoon Contribution End -->
+        </div>
+    </div>
+    <!-- Countdown End -->
 
-            <!-- Countdown Start -->
-            <div class="container-fluid py-0 bg-secondary text-center text-white" id="countdown">
-                <div class="container py-0">
-                    <div class="section-title position-relative text-center">
-                        <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Countdown</h6>
-                        <h1 class="font-secondary display-4 text-white">Countdown</h1>
-                        <i class="far fa-heart text-white"></i>
-                    </div>
-                    <div class="mx-3">
-                        <h2 id="days" class="font-secondary display-4 text-white">00</h2>
-                        <p class="text-uppercase">Days</p>
-                    </div>
-                    <div id="countdown-timer" class="d-flex justify-content-center">
-                        <div class="mx-3">
-                            <h2 id="hours" class="font-secondary display-4 text-white">00</h2>
-                            <p class="text-uppercase">Hours</p>
-                        </div>
-                        <div class="mx-3">
-                            <h2 id="minutes" class="font-secondary display-4 text-white">00</h2>
-                            <p class="text-uppercase">Minutes</p>
-                        </div>
-                        <div class="mx-3">
-                            <h2 id="seconds" class="font-secondary display-4 text-white">00</h2>
-                            <p class="text-uppercase">Seconds</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-3" id="contact">
+        <div class="container text-center py-3">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">Thank You</h1>
+                <i class="far fa-heart text-white"></i>
             </div>
-            <!-- Countdown End -->
-            <!-- Footer Start -->
-            <div class="container-fluid bg-dark text-white py-3" id="contact">
-                <div class="container text-center py-3">
-                    <div class="section-title position-relative text-center">
-                        <h1 class="font-secondary display-3 text-white">Thank You</h1>
-                        <i class="far fa-heart text-white"></i>
-                    </div>
-                    <p class="m-0">Created by <i><b>D. Bonelli</b></i> and <i><b>M. Todesco</b></i></p>
-                    <br/>
-                    <p class="m-0">&copy; <a class="text-primary" href="#"></a>. Designed by <a class="text-primary"
-                                                                                                href="https://htmlcodex.com">HTML
-                        Codex</a>
-                    </p>
-                </div>
-            </div>
-            <!-- Footer End -->
+            <p class="m-0">Created by <i><b>D. Bonelli</b></i> and <i><b>M. Todesco</b></i></p>
+            <br/>
+            <p class="m-0">&copy; <a class="text-primary" href="#"></a>. Designed by <a class="text-primary"
+                                                                                        href="https://htmlcodex.com">HTML
+                Codex</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
 
-            <!-- Scroll to Bottom -->
-            <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-            <!-- JavaScript Libraries -->
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-            <script src="lib/easing/easing.min.js"></script>
-            <script src="lib/waypoints/waypoints.min.js"></script>
-            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-            <script src="lib/isotope/isotope.pkgd.min.js"></script>
-            <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-            <!-- Template Javascript -->
-            <script src="js/main.js"></script>
-            <script src="js/countdown.js"></script>
-            <script src="js/navbar.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>
