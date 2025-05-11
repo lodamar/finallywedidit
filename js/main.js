@@ -24,6 +24,15 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
+
+
     
 })(jQuery);
 
+function copyToClipboard(button) {
+    navigator.clipboard.writeText('IT84W0306932550100000009841').then(() => {
+        button.textContent = 'Copiato';
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+    });
+}
